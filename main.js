@@ -35,6 +35,13 @@ nutSoNguyen.onclick = function() {
 // Bài 2
 
 
+/**
+ * b1: cho người dùng là những người trong gia đình ở đây 4 người ba mẹ chị tôi
+ * b2: sử dụng prompt để xuất ra thông báo cho người dùng nhập vào 
+ *  - sử dụng if else if 
+ * b3: alert ra màng hình
+ */
+
     var nhapTen = document.getElementById('nhapTen').value;
     
     nhapTen = prompt('Vui lòng nhập tên:')
@@ -55,7 +62,13 @@ nutSoNguyen.onclick = function() {
 
 
 //bài 3
-
+/**
+ * b1: người dùng nhập vào ba số nguyên bắt kì
+ * b2: tách ba số input ra
+ * - tạo hai biến để nhận giá trị
+ * - rồi kiểm tra ba số đó, nếu chãn cộng thêm một và ngược lại
+ * b3: xuất 2 biến đó ra
+ */
 
 var nutLeChan = document.getElementById('nutLeChan').onclick = function() {
     var soLeChan = document.getElementById('soLeChan').value;
@@ -95,6 +108,16 @@ var nutLeChan = document.getElementById('nutLeChan').onclick = function() {
 
 
 //Bài 4
+
+/**
+ * b1: khởi tạo ba cạnh để nhập vào giá trị ba cạnh đó
+ * b2: cho điêu kiện:
+ * - nếu canh a = cạnh b và khác cạnh c --> tam giác cân
+ * - nếu cạnh a = b = c thì là tam giác cân
+ * - nếu ba cạnh theo công thức pytago c^2 = a^2 + b^2 thì là tam giác vuông
+ * b3: xuất ra màng hình kết quả
+ */
+
 
 var xuatRaTamGiac = document.getElementById('xuatRaTamGiac').onclick = function() {
     var canhA = document.getElementById('canhA').value
