@@ -77,8 +77,8 @@ var nutLeChan = document.getElementById('nutLeChan').onclick = function() {
     var b = parseInt(soLeChan % 100 / 10)
     var c = Math.abs(soLeChan % 10);
     
-    var soLe = '';
-    var soChan = '';
+    var soLe = '0';
+    var soChan = '0';
 
     if(soLe >= 0, soChan >= 0) {
          
@@ -132,9 +132,8 @@ var xuatRaTamGiac = document.getElementById('xuatRaTamGiac').onclick = function(
         } else if(canhA==canhB &&canhB==canhC && canhC==canhA){
             tamGiacGi.innerHTML = 'tam giác đều'
         } else if(Math.pow(canhC,2)== Math.pow(canhA,2)+Math.pow(canhB,2)){
-        tamGiacGi.innerHTML = 'tam giác vuông'
-    } 
-
+            tamGiacGi.innerHTML = 'tam giác vuông'
+    }
 }
      else{
         tamGiacGi.innerHTML = 'Tứ giác'
